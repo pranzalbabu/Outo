@@ -1,0 +1,11 @@
+pkg update -y
+pkg upgrade -y
+pkg install ssl -y
+pkg install python -y
+pkg update && upgrade -y
+pip install chardet urllib3 idna certifi requests bs4
+pkg install ssl -y
+gitclone
+https://github.com/pranzalbabu/Outo.git
+cd outo
+python outo.py
